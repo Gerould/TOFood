@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="POSTRES"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu1"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat1"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu1"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu2"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat2"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu2"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu3"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat3"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu3"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu4"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat4"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu4"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu5"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat5"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu5"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu6"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat6"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu6"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogurt"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonegatiu7"
+            android:layout_marginRight="10dp"
+            android:text="-" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/quantitat7"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="61dp"
+            android:id="@+id/botopositiu7"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aceptar"
+        android:text="Aceptar"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
